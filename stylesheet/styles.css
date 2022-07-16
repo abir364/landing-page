@@ -5,7 +5,7 @@
     font-family: Roboto, sans-serif;
 }
 
-body {
+body, .image-box, .quote-box, .signer, .footer {
     display: flex;
     flex-direction: column;
 }
@@ -54,7 +54,6 @@ h1 {
 }
 
 .footer {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 168px;
@@ -104,8 +103,6 @@ button {
 }
 
 .image-box {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     gap: 32px;
     height: 284px;
@@ -119,8 +116,6 @@ button {
 }
 
 .quote-box {
-    display: flex;
-    flex-direction: column;
     height: 284px;
     background-color: #e5e7eb;
     align-items: center;
@@ -174,8 +169,6 @@ button {
 
 .signer {
     max-width: 400px;
-    display: flex;
-    flex-direction: column;
     gap: 16px;
 }
 
