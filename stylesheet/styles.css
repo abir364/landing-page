@@ -76,6 +76,8 @@ img {
 .big-img {
     height: 200px;
     width: 400px;
+    border: 0;
+    border-radius: 1px;
 }
 
 ul {
@@ -170,6 +172,10 @@ button {
 .signer {
     max-width: 400px;
     gap: 16px;
+}
+
+.signer h1 {
+    width: 500px;
 }
 
 .info {
