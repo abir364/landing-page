@@ -12,6 +12,8 @@ body {
 
 ul {
     list-style: none;
+    width: 400px;
+    justify-content: end;
 }
 
 li a {
@@ -33,6 +35,7 @@ a {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    width: 400px;
 }
 
 h1 {
@@ -54,7 +57,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 84px;
+    height: 168px;
 }
 
 .text-box {
@@ -87,13 +90,15 @@ button {
     border-radius: 8px;
     color: #f9faf8;
     padding: 4px;
+    max-width: 80px;
+    border: 0;
 }
 
 
 .container {
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-around;
     padding: 16px;
     gap: 24px;
 }
@@ -102,7 +107,9 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 16px;
+    gap: 32px;
+    height: 284px;
+    justify-content: center;
 }
 
 .flex-container {
@@ -134,9 +141,44 @@ button {
 }
 
 .box {
-    display: flex;
     height: 300px;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.blue-box {
     background-color: #3882f6;
+    width: 800px;
+    height: 148px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.blue-box button {
+    border: 2px solid #f9faf8;
+}
+
+#bold{
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#small {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.signer {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info {
+    max-width: 200px;
 }
